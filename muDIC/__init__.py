@@ -6,7 +6,6 @@ from . import IO
 from . import elements
 from . import filtering
 from . import mesh
-from . import mesh
 from . import post
 from . import vlab
 from . import utils
@@ -17,5 +16,5 @@ from .solver import *
 
 # Set the default logging level
 import logging
-logging.basicConfig(format='%(name)s:%(levelname)s:%(message)s', level=logging.INFO)
 
+logging.basicConfig(format="%(name)s:%(levelname)s:%(message)s", level=logging.INFO)
